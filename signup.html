@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Signup</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--日歷的js/foopicker.css-->
+	<link rel="stylesheet" type="text/css" href="css/foopicker.css">
+	<script type="text/javascript" src="js/foopicker.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/signup.css">
+
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+				<form class="login100-form">
+					<span class="login100-form-title p-b-59">
+						Sign Up
+					</span>
+
+					<div class="wrap-input100">
+						<span class="label-input100">Full Name</span>
+						<input class="input100" type="text" name="name" placeholder="Name...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100">
+						<span class="label-input100">Username</span>
+						<input class="input100" type="text" name="username" placeholder="Username...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100">
+						<span class="label-input100">Gendar</span>
+					    <input type="radio" name="rb" id="rb1" />
+					    <label class="l1" for="rb1">Male</label>
+					    <input type="radio" name="rb" id="rb2" />
+					    <label class="l1" for="rb2">Female</label>
+					    <input type="radio" name="rb" id="rb3" />
+					    <label class="l1" for="rb3">Other</label>
+					</div>
+
+					<div class="wrap-input100">
+						<span class="label-input100">Email</span>
+						<input class="input100" type="email" name="email" placeholder="Email address...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="Password" name="pass" placeholder="*************">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100">
+				    <span class="label-input100">Birthday</span>
+				    <input class="input100" type="text" id="datepicker" placeholder="Your Birthday"/>
+				  </div>
+
+					<div class="wrap-input100">
+						<span class="label-input100">Phone Number</span>
+						<input class="input100" type="number" name="phone" placeholder="03 265 9999">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100">
+						<span class="label-input100">Address</span>
+						<input class="input100" type="text" name="address" placeholder="桃園市中壢區中北路200號">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div>
+						<button class="login100-form-btn">
+							Sign Up
+						</button>
+						<!--login改成botton-->
+						<button class="login100-form-btn login" onclick="location.href='login.html'">
+							Log in
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--日歷的js/foopicker.css-->
+	<script type="text/javascript">
+     var foopicker = new FooPicker({
+       id: 'datepicker',
+       dateFormat: 'dd/MM/yyyy',
+       disable: ['29/07/2017', '30/07/2017', '31/07/2017', '01/08/2017']
+     });
+     var foopicker2 = new FooPicker({
+       id: 'datepicker2'
+     });
+   </script>
+
+	
+
+</body>
+</html>

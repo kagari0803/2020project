@@ -1,0 +1,50 @@
+body{
+  background-color:white;
+  font-family:Microsoft JhengHei;
+}
+
+.page-footer{
+	background-color:#37475d;
+	color:white;
+}
+
+
+@media (max-width: 575.98px) {
+  .icon3big{
+    display:none;
+  }
+  #navbarSupportedContent{
+    text-align: center;
+  }
+  .dropdown-item{
+    text-align: center;
+  }
+  .gallery {
+  column-count: 2;
+  column-width: 50%;
+  }
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+
+}
+.main-nav{
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .icon3small{
+    display:none;
+  }
+  .gallery {
+  column-count: 3;
+  column-width: 33%;
+  }
+}
+
+.link{
+  color:#E3D182;
+}
+.link:hover{
+  color:white;
+}

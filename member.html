@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>會員資料頁</title>
+    <!-- bootstrap required-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--fontawesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <!--header&footer css-->
+    <link href="css/headerfooter.css" rel="stylesheet" media="screen">
+    <link href="css/member.css" rel="stylesheet" media="screen">
+
+
+</head>
+<body>
+
+
+<!--匯入共用區段header.js,為置頂logo,導覽列和側邊欄的部分。與登入與註冊畫面的html-->
+<script src="js/header.js"></script>
+
+
+<hr>
+<div style="margin:0px auto;text-align:center;font-size:30px;font-family: ">會員資料</div>
+<hr>
+
+<!--會員資料-->
+<div class="container">
+  <div class="card">
+   <h3>Full name is here</h3>
+  </div>
+</div>
+  
+<div class="container">
+  <div class="row receipt justify-content-center">
+    <div class="col col1">
+      <h5 class="bought-items">User Name</h5>
+      <p class="bought-items description">xxx</p><br>
+      <h5 class="bought-items">Gendar</h5>
+      <p class="bought-items description">xxx</p><br>
+      <h5 class="bought-items">Email</h5>
+      <p class="bought-items description">xxx</p><br>
+    </div>
+    <div class="col col1">
+      <h5 class="bought-items">Birthday</h5>
+      <p class="bought-items description">xxx</p><br>
+      <h5 class="bought-items">Phone number</h5>
+      <p class="bought-items description">xxx</p><br>
+      <h5 class="bought-items">Address</h5>
+      <p class="bought-items description">xxx</p><br>
+    </div>
+    <button class="explore" onclick="javascript:location.href='edit.html'" >Edit<span class="icon-right"></span><span class="icon-right after"></span></button>
+    <button class="explore" onclick="#" >Logout<span class="icon-right"></span><span class="icon-right after"></span></button>
+  </div>
+</div>
+
+
+<!--最新三筆交易紀錄-->
+<hr>
+<div style="margin:0px auto;text-align:center;font-size:30px">消費紀錄</div>
+<hr>
+<div class="container">
+  <ul class="responsive-table">
+    <li class="table-header">
+      <div class="col col-1">Product picture</div>
+      <div class="col col-2">Product name</div>
+      <div class="col col-3">Price</div>
+      <div class="col col-4">Pament</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Product picture"><img src="img/3-8.jpg" class="mx-auto d-block" alt="logo" style="width:auto;height:100px;"></div>
+      <div class="col col-2" data-label="Customer Name">櫻花餅乾模</div>
+      <div class="col col-3" data-label="Amount">$$#</div>
+      <div class="col col-4" data-label="Payment Status">in cash</div>
+    </li>
+   <li class="table-row">
+      <div class="col col-1" data-label="Product picture"><img src="img/3-8.jpg" class="mx-auto d-block" alt="logo" style="width:auto;height:100px;"></div>
+      <div class="col col-2" data-label="Customer Name">櫻花餅乾模</div>
+      <div class="col col-3" data-label="Amount">$$#</div>
+      <div class="col col-4" data-label="Payment Status">in cash</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Product picture"><img src="img/3-8.jpg" class="mx-auto d-block" alt="logo" style="width:auto;height:100px;"></div>
+      <div class="col col-2" data-label="Customer Name">櫻花餅乾模</div>
+      <div class="col col-3" data-label="Amount">$$#</div>
+      <div class="col col-4" data-label="Payment Status">in cash</div>
+    </li>
+  </ul>
+</div>
+
+
+<!--最新三筆評論紀錄-->
+<hr>
+<div style="margin:0px auto;text-align:center;font-size:30px">評論與評分紀錄</div>
+<hr>
+<div class="container">
+  <ul class="responsive-table">
+    <li class="table-header">
+      <div class="col col-1">Product name</div>
+      <div class="col col-2">Subject</div>
+      <div class="col col-3">Date</div>
+      <div class="col col-4">More</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Product name">櫻花餅乾模</div>
+      <div class="col col-2" data-label="Subject">AAAA</div>
+      <div class="col col-3" data-label="Date">20190102</div>
+      <div class="col col-4"><a href="#">More</a></div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Product name">櫻花餅乾模</div>
+      <div class="col col-2" data-label="Subject">AAAA</div>
+      <div class="col col-3" data-label="Date">20190102</div>
+      <div class="col col-4"><a href="#">More</a></div>
+    </li>
+     <li class="table-row">
+      <div class="col col-1" data-label="Product name">櫻花餅乾模</div>
+      <div class="col col-2" data-label="Subject">AAAA</div>
+      <div class="col col-3" data-label="Date">20190102</div>
+      <div class="col col-4"><a href="#">More</a></div>
+    </li>
+  </ul>
+</div>
+
+<!--匯入共用區段footer.js-->
+<script src="js/footer.js"></script>
+
+
+
+
+
+<script>
+
+$('#myCarousel').on('slide.bs.carousel', function () {
+      $("#myCarousel").carousel('cycle');
+      interval:500;
+    });
+
+</script>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</body>
+</html>

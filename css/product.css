@@ -1,0 +1,24 @@
+body{
+		font-family: "微軟正黑體";
+}
+img.product{
+			width:300px;
+			height:300px;
+			overflow:hidden;
+			transform:scale(1,1);
+			transition: all 0.8s ease-out;
+}
+img.product:hover{transform:scale(1.2,1.2);}
+input.num{
+			 width: 100px;
+			 height: 25px;
+}
+div.text{
+			line-height: 30px;
+}
+input.text{
+			height: 120px;
+}
+a{
+	color: #666666;
+}

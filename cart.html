@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>購物車</title>
+   <!-- bootstrap required-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--fontawesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+     <!-- header footer 的css-->
+     <link href="css/headerfooter.css" rel="stylesheet" media="screen">
+     <link href="css/cart.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+   <script src="js/header.js"></script>
+<hr>
+<div style="margin:0px auto;text-align:center;font-size:30px">購物車</div>
+<hr>
+
+ <div class="container">
+  <ul class="responsive-table">
+    <li class="table-header">
+      <div class="col col-1">Product picture</div>
+      <div class="col col-2">Product name</div>
+      <div class="col col-3">Quantity</div>
+      <div class="col col-4">Price</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Product picture"><img src="img/logoF12.jpg" class="mx-auto d-block" alt="logo" style="width:100px;height:100px;"></div>
+      <div class="col col-2" data-label="Product name"><label>ieoe</label></div>
+      <div class="col col-3" data-label="Quantity">
+         <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>QTY</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      </div>
+      <div class="col col-4" data-label="Price">$$$</div>
+    </li>
+   <li class="table-row">
+      <div class="col col-1" data-label="Product picture"><img src="img/logoF12.jpg" class="mx-auto d-block" alt="logo" style="width:100px;height:100px;"></div>
+      <div class="col col-2" data-label="Product name">櫻花餅乾模</div>
+      <div class="col col-3" data-label="Quantity">
+         <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>QTY</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      </div>
+      <div class="col col-4" data-label="Price">$$$</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Product picture"><img src="img/logoF12.jpg" class="mx-auto d-block" alt="logo" style="width:100px;height:100px;"></div>
+      <div class="col col-2" data-label="Product name">櫻花餅乾模</div>
+      <div class="col col-3" data-label="Quantity">
+         <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>QTY</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      </div>
+      <div class="col col-4" data-label="Price">$$$</div>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <div class="row">
+  <div class="col-sm-1"></div>
+  <div class="col-sm total" style="text-align:right;">
+    <span>共</span>
+    <span>??</span>
+    <span>件</span>
+    <span> / </span>
+    <span>商品金額總計：NT$ </span>
+    <span>??</span>
+  </div>
+  <div class="col-sm-1"></div>
+  </div>
+</div>
+
+<script src="js/footer.js"></script>
+</body>
+</html>
