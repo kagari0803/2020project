@@ -3,9 +3,9 @@
 ❌RWD
 
 ## Description
-The website I built with a classmate as homework in 2019. It's a shopping site that sells baking supplies.
-We cooperated with classmates in the other class to add the backstage function by JSP.
-This demo website only shows the frontstage.
+The website I built with a classmate as homework in 2019. It's a shopping site that sells baking supplies.  
+We cooperated with classmates in the other class to add the backstage function by JSP.  
+This demo website only shows the frontstage.  
 
 ## Status
 Unfinished
