@@ -1,4 +1,4 @@
-# Resume Project
+# OBaking Supplies Store
 [Demo Website](https://kagari0803.github.io/baking-supplies-store-website/)
 ❌RWD
 
